@@ -13,10 +13,14 @@
 - Xcode11beta
 - RealmSwift
 - Google-Mobile-Ads-SDK
+- Illustrator CC 2015
 
 ## App Store
 申請中
 
+## アイコンデザイン
+https://gyazo.com/6368a99c2d4ad6d8abc7cc1cf8aadeba
+[![Image from Gyazo](https://i.gyazo.com/6368a99c2d4ad6d8abc7cc1cf8aadeba.png)](https://gyazo.com/6368a99c2d4ad6d8abc7cc1cf8aadeba)
 ## 機能紹介
 
 ### 基本性能
