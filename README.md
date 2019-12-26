@@ -39,7 +39,6 @@ https://gyazo.com/ca84d34ebf30fb3cfa58b9ec507360ec
 
 ### ラベルの作成
 - ファイル別にラベル(見出しのようなもの)を作成できます
-
 参考動画
 https://gyazo.com/6f9537d1bc2021d59a2f4ca0c92dfe84
 [![Image from Gyazo](https://i.gyazo.com/6f9537d1bc2021d59a2f4ca0c92dfe84.gif)](https://gyazo.com/6f9537d1bc2021d59a2f4ca0c92dfe84)
@@ -52,6 +51,7 @@ https://gyazo.com/11eb5330b0641136e98b276f48d3d2f8
 [![Image from Gyazo](https://i.gyazo.com/11eb5330b0641136e98b276f48d3d2f8.gif)](https://gyazo.com/11eb5330b0641136e98b276f48d3d2f8)
 
 ### 選択した言葉に合わせて編集したり、言葉を選んだりできます
+- ラベルが言葉を持っているかいないかで、違う編集画面に飛びます
 参考動画
 https://gyazo.com/4c948765c822cf967e4c55b67d8edff5
 [![Image from Gyazo](https://i.gyazo.com/4c948765c822cf967e4c55b67d8edff5.gif)](https://gyazo.com/4c948765c822cf967e4c55b67d8edff5)
