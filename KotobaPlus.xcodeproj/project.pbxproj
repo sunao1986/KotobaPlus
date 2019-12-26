@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FD3D2E112B0F34A49B8E760 /* Pods_KotobaPlusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725814DA00DD45F888081D77 /* Pods_KotobaPlusTests.framework */; };
+		4F3DFAD623B0B722000CCF19 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3DFAD423B0B722000CCF19 /* TableViewCell.swift */; };
+		4F3DFAD723B0B722000CCF19 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F3DFAD523B0B722000CCF19 /* TableViewCell.xib */; };
+		4F3DFAD923B137DA000CCF19 /* WordCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3DFAD823B137DA000CCF19 /* WordCreateViewController.swift */; };
+		4F3DFADB23B18748000CCF19 /* LabelOnlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3DFADA23B18748000CCF19 /* LabelOnlyViewController.swift */; };
 		4F67561123A4A1A600DAA6B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F67561023A4A1A600DAA6B5 /* AppDelegate.swift */; };
 		4F67561323A4A1A600DAA6B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F67561223A4A1A600DAA6B5 /* SceneDelegate.swift */; };
 		4F67561523A4A1A600DAA6B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F67561423A4A1A600DAA6B5 /* ViewController.swift */; };
@@ -15,6 +20,18 @@
 		4F67561D23A4A1A900DAA6B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F67561B23A4A1A900DAA6B5 /* LaunchScreen.storyboard */; };
 		4F67562823A4A1AA00DAA6B5 /* KotobaPlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F67562723A4A1AA00DAA6B5 /* KotobaPlusTests.swift */; };
 		4F67563323A4A1AA00DAA6B5 /* KotobaPlusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F67563223A4A1AA00DAA6B5 /* KotobaPlusUITests.swift */; };
+		4F67564123A4AD1F00DAA6B5 /* NewFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F67564023A4AD1F00DAA6B5 /* NewFileViewController.swift */; };
+		4F67564323A5E93E00DAA6B5 /* SheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F67564223A5E93E00DAA6B5 /* SheetViewController.swift */; };
+		4F67564523A5F11900DAA6B5 /* NewWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F67564423A5F11900DAA6B5 /* NewWordViewController.swift */; };
+		4F67564823A62F8800DAA6B5 /* WordSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F67564723A62F8800DAA6B5 /* WordSelectViewController.swift */; };
+		4F82225623AE25F400BCBC48 /* WordAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F82225523AE25F400BCBC48 /* WordAddViewController.swift */; };
+		4F82225823AE273300BCBC48 /* SheetEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F82225723AE273300BCBC48 /* SheetEditViewController.swift */; };
+		4FA64AAF23AA115700963428 /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA64AAE23AA115700963428 /* Files.swift */; };
+		4FA7D7D723AE295F006A78E1 /* WordDeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA7D7D623AE295F006A78E1 /* WordDeleteViewController.swift */; };
+		4FA7D7D923AF6D9F006A78E1 /* MyUINavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA7D7D823AF6D9F006A78E1 /* MyUINavigationViewController.swift */; };
+		4FA7D7DB23B09E93006A78E1 /* FileEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA7D7DA23B09E93006A78E1 /* FileEditViewController.swift */; };
+		AA7D4502592B03A3921D50EA /* Pods_KotobaPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248C9738E499B9EA9A75D3FA /* Pods_KotobaPlus.framework */; };
+		C4206814C50AF460DD96BD0E /* Pods_KotobaPlus_KotobaPlusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF84E5C430934B526B271722 /* Pods_KotobaPlus_KotobaPlusUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D328C34BCF6E866229E8A5C /* Pods-KotobaPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KotobaPlus.debug.xcconfig"; path = "Target Support Files/Pods-KotobaPlus/Pods-KotobaPlus.debug.xcconfig"; sourceTree = "<group>"; };
+		248C9738E499B9EA9A75D3FA /* Pods_KotobaPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KotobaPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30DE8E3CFC0581A65A7EE5BA /* Pods-KotobaPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KotobaPlus.release.xcconfig"; path = "Target Support Files/Pods-KotobaPlus/Pods-KotobaPlus.release.xcconfig"; sourceTree = "<group>"; };
+		4825941650A92C43407BEA74 /* Pods-KotobaPlus-KotobaPlusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KotobaPlus-KotobaPlusUITests.debug.xcconfig"; path = "Target Support Files/Pods-KotobaPlus-KotobaPlusUITests/Pods-KotobaPlus-KotobaPlusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F3DFAD423B0B722000CCF19 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		4F3DFAD523B0B722000CCF19 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		4F3DFAD823B137DA000CCF19 /* WordCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCreateViewController.swift; sourceTree = "<group>"; };
+		4F3DFADA23B18748000CCF19 /* LabelOnlyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelOnlyViewController.swift; sourceTree = "<group>"; };
 		4F67560D23A4A1A600DAA6B5 /* KotobaPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KotobaPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F67561023A4A1A600DAA6B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F67561223A4A1A600DAA6B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +74,21 @@
 		4F67562E23A4A1AA00DAA6B5 /* KotobaPlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KotobaPlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F67563223A4A1AA00DAA6B5 /* KotobaPlusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotobaPlusUITests.swift; sourceTree = "<group>"; };
 		4F67563423A4A1AA00DAA6B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F67564023A4AD1F00DAA6B5 /* NewFileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFileViewController.swift; sourceTree = "<group>"; };
+		4F67564223A5E93E00DAA6B5 /* SheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetViewController.swift; sourceTree = "<group>"; };
+		4F67564423A5F11900DAA6B5 /* NewWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWordViewController.swift; sourceTree = "<group>"; };
+		4F67564723A62F8800DAA6B5 /* WordSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSelectViewController.swift; sourceTree = "<group>"; };
+		4F82225523AE25F400BCBC48 /* WordAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordAddViewController.swift; sourceTree = "<group>"; };
+		4F82225723AE273300BCBC48 /* SheetEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetEditViewController.swift; sourceTree = "<group>"; };
+		4FA64AAE23AA115700963428 /* Files.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Files.swift; sourceTree = "<group>"; };
+		4FA7D7D623AE295F006A78E1 /* WordDeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDeleteViewController.swift; sourceTree = "<group>"; };
+		4FA7D7D823AF6D9F006A78E1 /* MyUINavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUINavigationViewController.swift; sourceTree = "<group>"; };
+		4FA7D7DA23B09E93006A78E1 /* FileEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileEditViewController.swift; sourceTree = "<group>"; };
+		60BFB6A7657301E222B1C6B8 /* Pods-KotobaPlus-KotobaPlusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KotobaPlus-KotobaPlusUITests.release.xcconfig"; path = "Target Support Files/Pods-KotobaPlus-KotobaPlusUITests/Pods-KotobaPlus-KotobaPlusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		725814DA00DD45F888081D77 /* Pods_KotobaPlusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KotobaPlusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54A3DF7F2ED1120F1D535D9 /* Pods-KotobaPlusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KotobaPlusTests.debug.xcconfig"; path = "Target Support Files/Pods-KotobaPlusTests/Pods-KotobaPlusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF84E5C430934B526B271722 /* Pods_KotobaPlus_KotobaPlusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KotobaPlus_KotobaPlusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9DFE18D9254DAA762C24C39 /* Pods-KotobaPlusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KotobaPlusTests.release.xcconfig"; path = "Target Support Files/Pods-KotobaPlusTests/Pods-KotobaPlusTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA7D4502592B03A3921D50EA /* Pods_KotobaPlus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FD3D2E112B0F34A49B8E760 /* Pods_KotobaPlusTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +112,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4206814C50AF460DD96BD0E /* Pods_KotobaPlus_KotobaPlusUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2087269F4FD92B4228737F8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				248C9738E499B9EA9A75D3FA /* Pods_KotobaPlus.framework */,
+				DF84E5C430934B526B271722 /* Pods_KotobaPlus_KotobaPlusUITests.framework */,
+				725814DA00DD45F888081D77 /* Pods_KotobaPlusTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4F67560423A4A1A600DAA6B5 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +136,8 @@
 				4F67562623A4A1AA00DAA6B5 /* KotobaPlusTests */,
 				4F67563123A4A1AA00DAA6B5 /* KotobaPlusUITests */,
 				4F67560E23A4A1A600DAA6B5 /* Products */,
+				EEB241E815F7B751C475F081 /* Pods */,
+				2087269F4FD92B4228737F8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +157,20 @@
 				4F67561023A4A1A600DAA6B5 /* AppDelegate.swift */,
 				4F67561223A4A1A600DAA6B5 /* SceneDelegate.swift */,
 				4F67561423A4A1A600DAA6B5 /* ViewController.swift */,
+				4F67564023A4AD1F00DAA6B5 /* NewFileViewController.swift */,
+				4F67564223A5E93E00DAA6B5 /* SheetViewController.swift */,
+				4F67564423A5F11900DAA6B5 /* NewWordViewController.swift */,
+				4F3DFAD823B137DA000CCF19 /* WordCreateViewController.swift */,
+				4F67564723A62F8800DAA6B5 /* WordSelectViewController.swift */,
+				4F82225523AE25F400BCBC48 /* WordAddViewController.swift */,
+				4F82225723AE273300BCBC48 /* SheetEditViewController.swift */,
+				4FA7D7D623AE295F006A78E1 /* WordDeleteViewController.swift */,
+				4FA7D7DA23B09E93006A78E1 /* FileEditViewController.swift */,
+				4F3DFADA23B18748000CCF19 /* LabelOnlyViewController.swift */,
+				4FA64AAE23AA115700963428 /* Files.swift */,
+				4FA7D7D823AF6D9F006A78E1 /* MyUINavigationViewController.swift */,
+				4F3DFAD423B0B722000CCF19 /* TableViewCell.swift */,
+				4F3DFAD523B0B722000CCF19 /* TableViewCell.xib */,
 				4F67561623A4A1A600DAA6B5 /* Main.storyboard */,
 				4F67561923A4A1A900DAA6B5 /* Assets.xcassets */,
 				4F67561B23A4A1A900DAA6B5 /* LaunchScreen.storyboard */,
@@ -128,6 +197,19 @@
 			path = KotobaPlusUITests;
 			sourceTree = "<group>";
 		};
+		EEB241E815F7B751C475F081 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D328C34BCF6E866229E8A5C /* Pods-KotobaPlus.debug.xcconfig */,
+				30DE8E3CFC0581A65A7EE5BA /* Pods-KotobaPlus.release.xcconfig */,
+				4825941650A92C43407BEA74 /* Pods-KotobaPlus-KotobaPlusUITests.debug.xcconfig */,
+				60BFB6A7657301E222B1C6B8 /* Pods-KotobaPlus-KotobaPlusUITests.release.xcconfig */,
+				B54A3DF7F2ED1120F1D535D9 /* Pods-KotobaPlusTests.debug.xcconfig */,
+				F9DFE18D9254DAA762C24C39 /* Pods-KotobaPlusTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F67563723A4A1AA00DAA6B5 /* Build configuration list for PBXNativeTarget "KotobaPlus" */;
 			buildPhases = (
+				6A560B95B37DAAA486B5E784 /* [CP] Check Pods Manifest.lock */,
 				4F67560923A4A1A600DAA6B5 /* Sources */,
 				4F67560A23A4A1A600DAA6B5 /* Frameworks */,
 				4F67560B23A4A1A600DAA6B5 /* Resources */,
+				15721E298C1A4B90BB90E320 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F67563A23A4A1AA00DAA6B5 /* Build configuration list for PBXNativeTarget "KotobaPlusTests" */;
 			buildPhases = (
+				B3AB304773D2987D40558052 /* [CP] Check Pods Manifest.lock */,
 				4F67561F23A4A1AA00DAA6B5 /* Sources */,
 				4F67562023A4A1AA00DAA6B5 /* Frameworks */,
 				4F67562123A4A1AA00DAA6B5 /* Resources */,
@@ -170,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F67563D23A4A1AA00DAA6B5 /* Build configuration list for PBXNativeTarget "KotobaPlusUITests" */;
 			buildPhases = (
+				C6F98B7A0CD6B85D8315BF0B /* [CP] Check Pods Manifest.lock */,
 				4F67562A23A4A1AA00DAA6B5 /* Sources */,
 				4F67562B23A4A1AA00DAA6B5 /* Frameworks */,
 				4F67562C23A4A1AA00DAA6B5 /* Resources */,
+				21C526D81887E8CF8226DE3F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F67561D23A4A1A900DAA6B5 /* LaunchScreen.storyboard in Resources */,
+				4F3DFAD723B0B722000CCF19 /* TableViewCell.xib in Resources */,
 				4F67561A23A4A1A900DAA6B5 /* Assets.xcassets in Resources */,
 				4F67561823A4A1A600DAA6B5 /* Main.storyboard in Resources */,
 			);
@@ -254,14 +342,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15721E298C1A4B90BB90E320 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KotobaPlus/Pods-KotobaPlus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KotobaPlus/Pods-KotobaPlus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KotobaPlus/Pods-KotobaPlus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21C526D81887E8CF8226DE3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KotobaPlus-KotobaPlusUITests/Pods-KotobaPlus-KotobaPlusUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KotobaPlus-KotobaPlusUITests/Pods-KotobaPlus-KotobaPlusUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KotobaPlus-KotobaPlusUITests/Pods-KotobaPlus-KotobaPlusUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A560B95B37DAAA486B5E784 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KotobaPlus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3AB304773D2987D40558052 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KotobaPlusTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6F98B7A0CD6B85D8315BF0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KotobaPlus-KotobaPlusUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4F67560923A4A1A600DAA6B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FA7D7D923AF6D9F006A78E1 /* MyUINavigationViewController.swift in Sources */,
+				4F82225823AE273300BCBC48 /* SheetEditViewController.swift in Sources */,
+				4FA7D7D723AE295F006A78E1 /* WordDeleteViewController.swift in Sources */,
+				4FA7D7DB23B09E93006A78E1 /* FileEditViewController.swift in Sources */,
 				4F67561523A4A1A600DAA6B5 /* ViewController.swift in Sources */,
+				4F3DFAD623B0B722000CCF19 /* TableViewCell.swift in Sources */,
+				4F67564323A5E93E00DAA6B5 /* SheetViewController.swift in Sources */,
+				4FA64AAF23AA115700963428 /* Files.swift in Sources */,
 				4F67561123A4A1A600DAA6B5 /* AppDelegate.swift in Sources */,
+				4F3DFADB23B18748000CCF19 /* LabelOnlyViewController.swift in Sources */,
 				4F67561323A4A1A600DAA6B5 /* SceneDelegate.swift in Sources */,
+				4F82225623AE25F400BCBC48 /* WordAddViewController.swift in Sources */,
+				4F67564123A4AD1F00DAA6B5 /* NewFileViewController.swift in Sources */,
+				4F67564523A5F11900DAA6B5 /* NewWordViewController.swift in Sources */,
+				4F67564823A62F8800DAA6B5 /* WordSelectViewController.swift in Sources */,
+				4F3DFAD923B137DA000CCF19 /* WordCreateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +636,7 @@
 		};
 		4F67563823A4A1AA00DAA6B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D328C34BCF6E866229E8A5C /* Pods-KotobaPlus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +655,7 @@
 		};
 		4F67563923A4A1AA00DAA6B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30DE8E3CFC0581A65A7EE5BA /* Pods-KotobaPlus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +674,7 @@
 		};
 		4F67563B23A4A1AA00DAA6B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B54A3DF7F2ED1120F1D535D9 /* Pods-KotobaPlusTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +697,7 @@
 		};
 		4F67563C23A4A1AA00DAA6B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9DFE18D9254DAA762C24C39 /* Pods-KotobaPlusTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +720,7 @@
 		};
 		4F67563E23A4A1AA00DAA6B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4825941650A92C43407BEA74 /* Pods-KotobaPlus-KotobaPlusUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +741,7 @@
 		};
 		4F67563F23A4A1AA00DAA6B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60BFB6A7657301E222B1C6B8 /* Pods-KotobaPlus-KotobaPlusUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

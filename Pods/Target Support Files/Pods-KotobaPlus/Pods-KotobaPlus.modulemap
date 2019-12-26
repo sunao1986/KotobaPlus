@@ -1,0 +1,6 @@
+framework module Pods_KotobaPlus {
+  umbrella header "Pods-KotobaPlus-umbrella.h"
+
+  export *
+  module * { export * }
+}
