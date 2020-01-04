@@ -35,7 +35,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableFileView.delegate = self
         
         bannerView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
-        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        bannerView.adUnitID = "ca-app-pub-4965749082468423/1771557491"
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
         bannerView.delegate = self
@@ -69,6 +69,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         //下部にアラートを出す
         let actionSheet = UIAlertController(title: nil, message: nil, preferredStyle: UIAlertController.Style.actionSheet)
+        
+        // iPad用の設定
+        actionSheet.popoverPresentationController!.sourceView = self.view;
+        let screenSize = UIScreen.main.bounds
+        actionSheet.popoverPresentationController?.sourceRect = CGRect(x: screenSize.size.width/2, y: screenSize.size.height, width: 0, height: 0)
 
         let reset = UIAlertAction(title: "データリセット", style: UIAlertAction.Style.destructive, handler: {
                 (action: UIAlertAction!) in
@@ -171,7 +176,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                                        
             let ok = UIAlertAction(title: "OK", style: .default) { (UIAlertAction) in
                 print("飛びます")
-                guard let url = URL(string: "https://itunes.apple.com/app/id{Apple ID}?action=write-review")else{ return }
+                guard let url = URL(string: "https://itunes.apple.com/app/id{1493346374}?action=write-review")else{ return }
                 UIApplication.shared.open(url)
                 
                 self.dismiss(animated: true, completion: nil)
@@ -213,7 +218,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     //ヘッダーの高さを指定
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 50
+        return 90
     }
     
     
