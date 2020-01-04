@@ -10,7 +10,7 @@
 
 ## 開発環境情報
 - Swift 5.0.1
-- Xcode11beta
+- Xcode11.3
 - RealmSwift
 - Google-Mobile-Ads-SDK
 - Illustrator CC 2015
