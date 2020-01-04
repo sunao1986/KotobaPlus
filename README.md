@@ -16,7 +16,7 @@
 - Illustrator CC 2015
 
 ## App Store
-申請中
+配信中（リリース済)
 
 ## アイコンデザイン
 https://gyazo.com/6368a99c2d4ad6d8abc7cc1cf8aadeba
