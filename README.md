@@ -79,3 +79,6 @@ https://gyazo.com/fa17cfc919f636af8699e85a6b477d0b
 [![Image from Gyazo](https://i.gyazo.com/18f7e45bfad77f08fbf8476dd6154064.gif)](https://gyazo.com/18f7e45bfad77f08fbf8476dd6154064)
 #### 動画リンク
 https://gyazo.com/18f7e45bfad77f08fbf8476dd6154064
+
+####ダウンロード
+ https://apps.apple.com/jp/app/kotobaplus/id1493346374?mt=8
