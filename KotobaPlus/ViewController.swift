@@ -71,7 +71,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let actionSheet = UIAlertController(title: nil, message: nil, preferredStyle: UIAlertController.Style.actionSheet)
         
         // iPad用の設定
-        actionSheet.popoverPresentationController!.sourceView = self.view;
+        actionSheet.popoverPresentationController?.sourceView = self.view
         let screenSize = UIScreen.main.bounds
         actionSheet.popoverPresentationController?.sourceRect = CGRect(x: screenSize.size.width/2, y: screenSize.size.height, width: 0, height: 0)
 
@@ -176,7 +176,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                                        
             let ok = UIAlertAction(title: "OK", style: .default) { (UIAlertAction) in
                 print("飛びます")
-                guard let url = URL(string: "https://itunes.apple.com/app/id{1493346374}?action=write-review")else{ return }
+                guard let url = URL(string: "https://itunes.apple.com/app/id1493346374?action=write-review")else{ return }
                 UIApplication.shared.open(url)
                 
                 self.dismiss(animated: true, completion: nil)
