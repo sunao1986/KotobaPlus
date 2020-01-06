@@ -10,13 +10,14 @@
 
 ## 開発環境情報
 - Swift 5.0.1
-- Xcode11beta
+- Xcode11.3
 - RealmSwift
 - Google-Mobile-Ads-SDK
 - Illustrator CC 2015
 
 ## App Store
-申請中
+配信中（リリース済)
+https://apps.apple.com/jp/app/kotobaplus/id1493346374?mt=8
 
 ## アイコンデザイン
 https://gyazo.com/6368a99c2d4ad6d8abc7cc1cf8aadeba
